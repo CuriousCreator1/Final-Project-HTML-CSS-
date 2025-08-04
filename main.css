@@ -1,0 +1,45 @@
+body{
+                background-color: black;
+                color: gold;
+                margin: 0;
+                padding: 0;
+                font-weight: bold;
+                font-size: x-large;
+            }
+
+            header{
+                background-color: yellow;
+                text-align: center;
+                padding: 20px;
+            }
+
+            h1{
+                color: black;
+            }
+            /* menu styles */
+            nav{
+                color: black;
+                text-decoration: none;
+                padding: 10px;
+                text-align: center;
+                font-weight: bold;
+                font-size: x-large;
+            }
+
+            nav a:hover{
+                color: black;
+            }
+
+            main{
+                padding: 20px;
+            }
+
+
+            .img-decorative{
+                /* the image will fill in 100% of the container it's in*/
+                width: 100%;
+                /* so that the image will not exceed the arbitrary limit of 800px that I wish to impose */
+                max-width: 800px;
+                /* gives the rounded corner look */
+                border-radius: 10px;
+            }
